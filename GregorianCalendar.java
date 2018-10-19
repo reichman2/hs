@@ -26,8 +26,8 @@ public class GregorianCalendar extends ConsoleProgram {
         Calendar c = Calendar.getInstance();
         
         Calendar hundredDays = new GregorianCalendar(c.get(Calendar.YEAR), c.get(Calendar.MONTH), c.get(Calendar.DAY_OF_MONTH));
-        Calendar birthday = new GregorianCalendar(2003, 1, 8);
-        Calendar tenThousandDays = new GregorianCalendar(2003, 1, 8);
+        Calendar birthday = new GregorianCalendar(2000, 0, 1);
+        Calendar tenThousandDays = new GregorianCalendar(2000, 0, 1);
         
         hundredDays.add(Calendar.DAY_OF_MONTH, 100);
         tenThousandDays.add(Calendar.DAY_OF_MONTH, 10000);
